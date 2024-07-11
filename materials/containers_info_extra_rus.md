@@ -162,7 +162,7 @@ Multiset (мультимножество) - это ассоциативный к
 
 | Lookup                 | Definition                                                                             |
 |------------------------|----------------------------------------------------------------------------------------|
-| `size_type count(const Key& key)`                  | returns the number of elements matching specific key                                   |
+| `size_type size(const Key& key)`                  | returns the number of elements matching specific key                                   |
 | `iterator find(const Key& key)`                   | finds element with specific key                                                        |
 | `bool contains(const Key& key)`               | checks if the container contains element with specific key                             |
 | `std::pair<iterator,iterator> equal_range(const Key& key)`            | returns range of elements matching a specific key                                      |
